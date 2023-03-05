@@ -12,9 +12,9 @@ const Layout = ({ children }: LayoutProps) => {
     <div className="bg-background-grey min-h-screen overflow-y-scroll">
       <NavBar />
       <main className="bg-background-grey h-screen align-middle flex flex-col justify-center items-center pt-16">
-        <div className="w-4/5 h-4/5 flex flex-col text-text-white font-gowun text-lg">
+        <section className="w-4/5 h-4/5 flex flex-col text-text-white font-gowun text-lg">
           {children}
-        </div>
+        </section>
       </main>
     </div>
   );

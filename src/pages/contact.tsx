@@ -8,9 +8,9 @@ import Button from "../components/button";
 const App = () => {
   return (
     <Layout>
-      <div className="pb-8">
+      <header className="pb-8">
         <p>To get in touch:</p>
-      </div>
+      </header>
       <div className="flex pb-8">
         <p className="pr-4">Drop me an</p>
         <p className="pr-4">-&gt;</p>
@@ -22,7 +22,7 @@ const App = () => {
         </a>
       </div>
       <div className="flex pb-8">
-        <p className="pr-4">Also, let's connect on </p>
+        <p className="pr-4">Also, let's connect on</p>
         <p className="pr-4">-&gt;</p>
         <a
           href="https://www.linkedin.com/in/callum-cheshire-46033216a/"
@@ -30,6 +30,14 @@ const App = () => {
           className="font-lekton text-tech-blue text-xl"
         >
           LinkedIn
+        </a>
+        <p className="pl-4 pr-4">&</p>
+        <a
+          href="https://www.linkedin.com/in/callum-cheshire-46033216a/"
+          target="_blank"
+          className="font-lekton text-tech-blue text-xl"
+        >
+          GitHub
         </a>
       </div>
       <div className="flex pb-8">

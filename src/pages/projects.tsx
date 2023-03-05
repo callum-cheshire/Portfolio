@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="items-center flex flex-col">
         <img src={projects} alt="" className="pt-8 pr-4"></img>
       </div>
-      <div className="flex flex-col justify-between md:flex-row">
+      <div className="flex flex-col justify-between md:flex-row sm:flex-row">
         <Card
           image={frumo}
           text="Frumo - Full Stack App"

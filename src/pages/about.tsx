@@ -6,8 +6,8 @@ import cv from "../assets/CV Junior Dev 2023 Updated.pdf";
 const AboutPage = () => {
   return (
     <Layout>
-      <main className="flex flex-row items-center overflow-hidden">
-        <div className="flex flex-col overflow-y-auto max-h-full mr-8">
+      <main className="flex flex-col items-center overflow-hidden sm:flex-row">
+        <article className="flex flex-col overflow-y-auto max-h-full mr-8 mb-4">
           <p className="pb-8">
             Hi there, I'm Callum, a Junior Full Stack Developer.
           </p>
@@ -35,7 +35,7 @@ const AboutPage = () => {
             exponentially, and I'm now looking to apply my combined practical
             and soft skills to a new role in the tech industry.
           </p>
-        </div>
+        </article>
         <img
           src={image}
           alt=""

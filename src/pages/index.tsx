@@ -8,7 +8,7 @@ import Button from "../components/button";
 const App = () => {
   return (
     <Layout>
-      <div className="pb-2">
+      <section className="pb-2">
         <p className="pb-4">Hi, my name is</p>
         <img
           src={name}
@@ -16,8 +16,8 @@ const App = () => {
           className="cursor-pointer"
           onClick={() => navigate("/about")}
         ></img>
-      </div>
-      <div className="flex items-end">
+      </section>
+      <article className="flex items-end">
         <p className="">and I'm a</p>
         <img
           src={developer}
@@ -25,7 +25,7 @@ const App = () => {
           className="pt-2 pl-4 cursor-pointer"
           onClick={() => navigate("/projects")}
         ></img>
-      </div>
+      </article>
       <p className="pt-16 pb-16">
         As a recent School of Code bootcamp graduate with an electrical testing
         background, I'm looking to apply my combined practical and soft skills
@@ -35,11 +35,11 @@ const App = () => {
         personal and professional growth and development, and I am continually
         striving to improve upon and add to my current skillset.
       </p>
-      <div className="flex flex-row items-center">
+      <article className="flex flex-row items-center">
         <p className="pr-8">Check out my</p>
         <p className="pr-8">-&gt;</p>
         <Button title="Projects" onClick={() => navigate("/projects")} />
-      </div>
+      </article>
     </Layout>
   );
 };
